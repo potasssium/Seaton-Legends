@@ -14,11 +14,11 @@ body{
 	background:#FFFFFF;
 }
 .banner{
-	background: url(../1.jpg) no-repeat 0px 0px;
+	background: url(1.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .agileinfo-dot{
-    background: url(../dott.png)repeat 0px 0px;
+    background: url(dott.png)repeat 0px 0px;
     background-size: 2px;
     -webkit-background-size: 2px;
     -moz-background-size: 2px;
