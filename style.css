@@ -14,11 +14,11 @@ body{
 	background:#FFFFFF;
 }
 .banner{
-	background: url(../images/1.jpg) no-repeat 0px 0px;
+	background: url(../1.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .agileinfo-dot{
-    background: url(../images/dott.png)repeat 0px 0px;
+    background: url(../dott.png)repeat 0px 0px;
     background-size: 2px;
     -webkit-background-size: 2px;
     -moz-background-size: 2px;
@@ -366,7 +366,7 @@ body{
     margin: 4em 0 0 0;
 }
 .w3about-img {
-    background: url(../images/2.jpg)no-repeat 0px 0px;
+    background: url(../2.jpg)no-repeat 0px 0px;
     background-size: cover;
     min-height: 31em;
 	min-width: 50em;
