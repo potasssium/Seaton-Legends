@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Seaton Legends Tournament</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- portfolio -->	
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+<!-- //portfolio -->	
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="agileinfo-dot">
+			<div class="agileits-logo">
+				<h1><a href="index.html">W.L. Seaton  <span>Legends Tournament</span></a></h1>
+			</div>
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav>
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="index.html">Home</a></li>
+										<li><a href="#about" class="scroll">About</a></li>
+										<li><a href="#contact" class="scroll">Contact</a></li>
+									</ul>
+								</nav>
+							</div>
+							<!-- /.navbar-collapse -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slider">
+						<div class="w3layouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										<li>
+											<div class="banner_text">
+												<h3>Free to enter with rewards to gain</h3>
+												<p>This tournament will be free to enter for anyone who enjoys the game of Apex Legends. If you’ve never played you can still enter, just make sure to consider your team. Point and team systems are listed below.												</p>
+												<ul class="w3-button">
+													<a href="#gallery" class="scroll">Registration Info</a>
+												</ul>
+											</div>
+										</li>
+
+									</ul>
+
+									<section class="coming-soon">
+										<div>
+										  <h2>Registration ends in</h2>
+										  <div class="countdown">
+											<div class="container-day">
+											  <h3 class="day">Time</h3>
+											  <h3>Days</h3>
+											</div>
+											<div class="container-hour">
+											  <h3 class="hour">Time</h3>
+											  <h3>Hours</h3>
+											</div>
+											<div class="container-minute">
+											  <h3 class="minute">Time</h3>
+											  <h3>Minutes</h3>
+											</div>
+											<div class="container-second">
+											  <h3 class="second">Time</h3>
+											  <h3>Seconds</h3>
+											</div>
+										  </div>
+										</div>
+										<!-- <img class="waiting" src="./images/example1.jpg" /> -->
+									  </section>
+									  <script src="index.js"></script>
+
+
+								</div>
+								<div class="clearfix"> </div>
+								<script src="js/responsiveslides.min.js"></script>
+								<script>
+									// You can also use "$(window).load(function() {"
+									$(function () {
+									  // Slideshow 4
+									  $("#slider4").responsiveSlides({
+										auto: true,
+										pager:true,
+										nav:true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+								 </script>
+								<!--banner Slider starts Here-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="about" id="about"> 
+		<div class="container"> 
+			<div class="welcome">
+				<div class="agileits-title"> 
+					<h2>Event Details</h2>
+					<span>Teams: </span><p>Each team will consist of three players so sign up with your friends. If your team only consists of two or one player, then other teams with insufficient members will join you to make a full team. In the case of there being three teams of two with no solo teams, then one team will have to divide to fill the spots on the other teams. When your team enters the event, each member will have to choose the same team to play together.					</p>
+				</div>
+			</div>
+			<div class="about-w3lsrow"> 
+				<div class="col-md-7 col-sm-7 w3about-img"> 
+					<div class="w3about-text"> 
+						<h5 class="w3l-subtitle">- Points</h5>
+						<p>For every kill the team gets they will be awarded 1 point. For every thousand damage a team receives, one point will be awarded. <span>Placement:</span> 1st place team: 12 points. 2nd place team: 9 points. 3rd place team: 7 points. 4th place team: 5 points. 5th place team: 4 points. 6th  and 7th place teams: 3 points. 8th-10th place teams: 2 points. 11th-15th place teams: 1 point. 16th-20th place teams: 0 points.
+							Contact us if any questions come up.</p>
+					</div>
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //about --> 
+	<!-- markets -->
+	<div class="markets" id="markets">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>This whole event will be streamed on YouTube so make sure to watch if you aren’t playing. Click the channel below to check out where it will be streamed.</h3>
+			</div>
+			<div class="youtube">
+				 <iframe id="youtube" src='https://widgets.sociablekit.com/youtube-channel-videos/iframe/231687' frameborder='0' width='100%' height='1000'></iframe>
+			</div>
+
+		</div>
+	</div>
+	<!-- //markets -->
+	<!-- portfolio -->
+	<div class="portfolio" id="gallery">
+		<div class="container">
+			<div class="agileits-title2"> 
+				<h3>Registration info</h3> 
+				<div class="p2">
+					<p>Max amount of registrations will be 60 people</p>
+				</div>
+				<div class="p">
+					<p> 20 teams of 3. Each person will sign up with their name and their team name if they already have a planned team. If they are joining up as a team of 2 or 1, they should have a way to say so. There should be a spot to add their email if i need to contact them for any reason.</p>
+				</div>
+			</div>
+			<div class="w3-button">
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSfrd9AzRhkGu83WrYYAZsV8nhxRJl8snKcd16oXZm_M70qxGg/viewform?usp=sf_link" data-toggle="modal" data-target="#myModal">Register Now</a>
+			</div>
+			
+		</div>
+	</div>
+	<!-- //portfolio -->
+	<!-- modal -->
+
+	<!-- //modal -->
+	<!-- testimonial -->
+
+	<!-- //testimoni-->
+	<!-- //mail -->
+	<!-- contact -->
+	<div id="contact" class="contact">
+		<div class="contact-row agileits-w3layouts">  
+			<div class="col-md-5 contact-w3lsleft map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2550.0296225092206!2d-119.26890732314709!3d50.27270550014544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537dd8edae91779f%3A0x632ab444220f8e5c!2s4701%2041st%20Ave%2C%20Vernon%2C%20BC%20V1T%204Y2!5e0!3m2!1sen!2sca!4v1700872044190!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<div class="col-md-7 contact-w3lsright">
+				<h6>Feel free to contact me via email if questions occur </h6>
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>Location</h5>
+						<p>Seaton Secondary School</p>
+						<p>2701 41st Ave, Canada </p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-xs-6 address-row w3-agileits">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>Email</h5>
+						<p><a href="neacojack@gmail.com"> neacojack@gmail.com </a></p>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>Time</h5>
+						<p>UNCLEAR</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>	
+			</div>
+			<div class="clearfix"> </div>
+		</div>	
+	</div>
+</body>	
+</html>
